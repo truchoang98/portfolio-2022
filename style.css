@@ -1,0 +1,46 @@
+@media (min-width: 768px) {
+  #navbarMenu {
+    display: none !important;
+  }
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-nav {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;  
+}
+
+.navbar-nav li {
+  padding-right: 30px; 
+}
+
+.navbar-toggler {
+  color: black;
+  font-size: 20px; 
+}
+
+.navbar-toggler:hover {
+  color: black; 
+}
+
+.navbar-collapse {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#navbarMenu {
+  background-color: white; 
+  text-align: center; 
+  width: 50px;
+  position: relative; 
+  padding-left: 44px;  
+}
