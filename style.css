@@ -78,3 +78,39 @@ body {
   padding-left: 30px; 
   padding-bottom: 60px;
 }
+
+section {
+  padding-top: 50px; 
+}
+
+.section-title {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  color: black; 
+  position: relative;
+}
+
+@media (max-width: 575px) {
+  .section-title h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .section-title span {
+    font-size: 38px;
+  }
+}
+
+.description {
+  margin-top: 20px;
+  color: black; 
+  font-weight: 500; 
+}
