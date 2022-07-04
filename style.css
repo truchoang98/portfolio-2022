@@ -114,3 +114,26 @@ section {
   color: black; 
   font-weight: 500; 
 }
+
+.projects h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: black; 
+  text-align: center;
+}
+
+.projects {
+  margin-top: -25px;  
+}
+
+.projects img {
+  padding: 20px; 
+}
+
+.projects p {
+  text-align: center; 
+  color: black; 
+}
